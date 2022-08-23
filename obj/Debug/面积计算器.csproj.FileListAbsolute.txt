@@ -1,0 +1,9 @@
+D:\文件\学习文件\软件训练营\509GG-面积计算\面积计算器\面积计算器\bin\Debug\面积计算器.exe.config
+D:\文件\学习文件\软件训练营\509GG-面积计算\面积计算器\面积计算器\bin\Debug\面积计算器.exe
+D:\文件\学习文件\软件训练营\509GG-面积计算\面积计算器\面积计算器\bin\Debug\面积计算器.pdb
+D:\文件\学习文件\软件训练营\509GG-面积计算\面积计算器\面积计算器\obj\Debug\面积计算器.csproj.AssemblyReference.cache
+D:\文件\学习文件\软件训练营\509GG-面积计算\面积计算器\面积计算器\obj\Debug\面积计算器.Form1.resources
+D:\文件\学习文件\软件训练营\509GG-面积计算\面积计算器\面积计算器\obj\Debug\面积计算器.csproj.GenerateResource.cache
+D:\文件\学习文件\软件训练营\509GG-面积计算\面积计算器\面积计算器\obj\Debug\面积计算器.csproj.CoreCompileInputs.cache
+D:\文件\学习文件\软件训练营\509GG-面积计算\面积计算器\面积计算器\obj\Debug\面积计算器.exe
+D:\文件\学习文件\软件训练营\509GG-面积计算\面积计算器\面积计算器\obj\Debug\面积计算器.pdb
