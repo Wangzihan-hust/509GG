@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Area_Caculator</name>
+    </assembly>
+    <members>
+        <member name="F:Area_Caculator.Form1.unit">
+            <summary>
+            Unit of caculation.
+            </summary>
+        </member>
+        <member name="T:Area_Caculator.Form1.CGraph">
+            <summary>
+            The main form <c>Form1</c>
+            Contains area caculations including four types of darwings
+            <list type="bullet">
+            <item>
+            <term>Square</term>
+            <description>S = a * a</description>
+            </item>
+            <item>
+            <term>Rectangle</term>
+            <description>S = a * b</description>
+            </item>
+            <item>
+            <term>Triangle</term>
+            <description>S = a * h</description>
+            </item>
+            <item>
+            <term>Circle</term>
+            <description>S = π * d * d / 4</description>
+            </item>
+            </list>
+            </summary>
+        </member>
+        <member name="M:Area_Caculator.Form1.CGraph.calculate(System.Double)">
+            <summary>
+            Calculates the area of a circle with diameter <paramref name="a"/>,
+            and return the result.
+            </summary>
+            <param name="a">The diameter of the circle.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Area_Caculator.Form1.CGraph.calculate(System.Double,System.Double)">
+            <summary>
+            Calculates the area of a rectangle with length of side <paramref name="a"/> and <paramref name="b"/>,
+            and return the result.
+            </summary>
+            <param name="a">One side of the rectangle.</param>
+            <param name="b">Another side of the rectangle. In particular, side <paramref name="b"/> equals to side <paramref name="a"/> in square.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Area_Caculator.Form1.CGraph.calculate1(System.Double,System.Double)">
+            <summary>
+            Calculates the area of a triangle with length of side <paramref name="a"/> and the height <paramref name="b"/>,
+            and return the result. 
+            </summary>
+            <param name="a">One side of the triangle.</param>
+            <param name="b">Height of the side <paramref name="a"/> in triangle.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Area_Caculator.Form1.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Changes the unit between in inches and centimeters when click.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Area_Caculator.Form1.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Changes the unit between in inches and centimeters when click.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Area_Caculator.Form1.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            Changes the unit between in inches and centimeters when click.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Area_Caculator.Form1.button4_Click(System.Object,System.EventArgs)">
+            <summary>
+            Changes the unit between in inches and centimeters when click.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Area_Caculator.Form1.btn5_Click_1(System.Object,System.EventArgs)">
+            <summary>
+            Starts the caculation.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Area_Caculator.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Area_Caculator.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Area_Caculator.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Area_Caculator.Program">
+            <summary>
+            The application <c>Program</c>.
+            </summary>
+        </member>
+        <member name="M:Area_Caculator.Program.Main(System.String[])">
+            <summary>
+            The main entrance of the application.
+            </summary>
+        </member>
+    </members>
+</doc>

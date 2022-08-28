@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.8.14.1" projectFile="D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Autohelper.shfbproj" started="2022/8/29 5:21:10">
+<buildStep step="Initializing">
+The Sandcastle tools are located in &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
+Locating components in the following folder(s):
+    D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;D:\Program Files (x86)\HTML Help Workshop\&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2022.8.14.1
+Copyright &#169; 2006-2022, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Area_Caculator.csproj
+    Found project &#39;D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Area_Caculator.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\bin\Debug\Area_Caculator.exe&#39; (.NETFramework 4.7.2)
+
+References to include:
+    None
+
+Copying XML comments files
+    D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\bin\Debug\Area_Caculator.xml -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Area_Caculator.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (zh-CN, 中文(简体，中国))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00.0020
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo-d19af329-577a-4ccc-a032-ec64b604e013.proj]
+生成启动时间为 2022/8/29 5:21:10。
+节点 1 上的项目“D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\GenerateRefInfo-d19af329-577a-4ccc-a032-ec64b604e013.proj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“obj\Debug\”。
+GenerateBindingRedirects:
+  ResolveAssemblyReferences 中没有建议的绑定重定向。
+GenerateRefInfo:
+  Microsoft.Build (v16.11.2+f3225964253d565862806752e54a7608191a9035)
+  ? Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 1 namespaces, 2 types, and 6 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 0 duplicate member(s)
+已完成生成项目“D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\GenerateRefInfo-d19af329-577a-4ccc-a032-ec64b604e013.proj”(默认目标)的操作。
+    Last step completed in 00:00:00.6510
+</buildStep>
+<buildStep step="ApplyDocumentModel">
+Applying document model to reflection output...
+    Last step completed in 00:00:00.0389
+</buildStep>
+<buildStep step="AddApiTopicFilenames">
+Adding topic filenames to API members...
+    Last step completed in 00:00:00.0356
+</buildStep>
+<buildStep step="GenerateApiTopicManifest">
+Generating API topic manifest...
+    Last step completed in 00:00:00.0170
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0170
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Checking for token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+Generating conceptual topic files
+    Parsing topic file &#39;D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Content\Welcome.aml&#39;
+    D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Content\Welcome.aml -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\ddueXml\2d3ebaa7-a18c-486a-8f80-a29036e87baa.xml
+    Parsing topic file &#39;D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Content\VersionHistory\VersionHistory.aml&#39;
+    D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Content\VersionHistory\VersionHistory.aml -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\ddueXml\aa51370f-46a0-4d80-a944-1c5146a0b0cc.xml
+    Parsing topic file &#39;D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Content\VersionHistory\v1.0.0.0.aml&#39;
+    D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Content\VersionHistory\v1.0.0.0.aml -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\ddueXml\60509f7d-596c-4405-90d9-582e3551a062.xml
+    Last step completed in 00:00:00.0130
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    Merging topic IDs into reference topic manifest file
+    Last step completed in 00:00:00.0050
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\icons\Help.png -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\Help.png
+    Last step completed in 00:00:00.0020
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file for API content...
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.0160
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    Last step completed in 00:00:00.0778
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0030
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\BuildAssembler.config
+  Updating reference topic configurations.
+  Updating conceptual topic configurations.
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00.0030
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+Loading configuration...
+Processing topics...
+SHFB: Warning BE0066: ShowMissingComponent: [N:Area_Caculator] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Area_Caculator.Form1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Area_Caculator.Form1.CGraph.calculate(System.Double)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Area_Caculator.Form1.CGraph.calculate(System.Double,System.Double)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Area_Caculator.Form1.CGraph.calculate1(System.Double,System.Double)] Missing &lt;returns&gt; documentation
+Processed 18 topic(s)
+5 warning(s)
+CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
+ResolveArtLinksComponent: Copying media files...
+ResolveReferenceLinksComponent: 501 entries added to the member ID URL cache.  New cache size: 501 entries
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 2 of 15.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
+    Last step completed in 00:00:01.5957
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+Using LCID &#39;2052&#39;, code page &#39;936&#39;, encoding charset &#39;gb2312&#39;.
+Processing Help 1 files in D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1
+Processed 18 HTML files.  Sorting keywords and generating See Also indices.
+Saving HTML Help 1 keyword index to D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\Autohelper.hhk
+Saving HTML Help 1 table of contents to D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\Autohelper.hhc
+    Last step completed in 00:00:00.0180
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertCaution.png -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertNote.png -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertSecurity.png -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\CodeExample.png -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\favicon.ico -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privClass.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\privClass.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privDelegate.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\privDelegate.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privEnumeration.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\privEnumeration.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privEvent.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\privEvent.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privExtension.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\privExtension.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privField.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\privField.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privInterface.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\privInterface.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privMethod.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\privMethod.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privProperty.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\privProperty.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privStructure.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\privStructure.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protClass.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\protClass.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protDelegate.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\protDelegate.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protEnumeration.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\protEnumeration.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protEvent.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\protEvent.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protExtension.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\protExtension.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protField.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\protField.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protInterface.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\protInterface.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protMethod.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\protMethod.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protOperator.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\protOperator.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protProperty.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\protProperty.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protStructure.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\protStructure.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubClass.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\pubClass.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubDelegate.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\pubDelegate.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubEnumeration.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\pubEnumeration.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubEvent.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\pubEvent.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubExtension.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\pubExtension.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubField.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\pubField.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubInterface.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\pubInterface.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubMethod.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\pubMethod.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubOperator.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\pubOperator.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubProperty.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\pubProperty.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubStructure.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\pubStructure.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\SectionCollapsed.png -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\SectionExpanded.png -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\Static.gif -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\icons\Static.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\scripts\branding.js -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\scripts\branding.js
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-cs-CZ.css -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-de-DE.css -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-en-US.css -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-es-ES.css -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-fr-FR.css -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-Help1.css -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-HelpViewer.css -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-it-IT.css -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ja-JP.css -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ko-KR.css -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-pl-PL.css -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-pt-BR.css -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ru-RU.css -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-tr-TR.css -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-Website.css -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-CN.css -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-TW.css -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding.css -&gt; D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\styles\branding.css
+    Last step completed in 00:00:00.1685
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00.0020
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - Build1xHelpFile.proj]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling d:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\Autohelper.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 0 seconds
+  
+  20	Topics
+  
+  142	Local links
+  
+  0	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created d:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\Autohelper\Help\Working\Output\HtmlHelp1\Autohelper.chm, 109,614 bytes
+  
+  Compression decreased file by 539,791 bytes.
+  
+    Last step completed in 00:00:00.7249
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.0319
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 2022/8/29 5:21:14.  Total time: 00:00:03.9156
+
+</buildStep>
+</shfbBuild>

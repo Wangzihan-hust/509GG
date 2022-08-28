@@ -1,0 +1,9 @@
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\bin\Debug\面积计算器.exe.config
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\bin\Debug\面积计算器.exe
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\bin\Debug\面积计算器.pdb
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\obj\Debug\面积计算器.csproj.GenerateResource.cache
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\obj\Debug\面积计算器.csproj.CoreCompileInputs.cache
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\obj\Debug\面积计算器.exe
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\obj\Debug\面积计算器.pdb
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\obj\Debug\Area_Caculator.Form1.resources
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\bin\Debug\面积计算器.xml

@@ -5,12 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace 面积计算器
+namespace Area_Caculator
 {
+    /// <summary>
+    /// The application <c>Program</c>.
+    /// </summary>
     class Program
     {
         /// <summary>
-        /// 应用程序的主入口点。
+        /// The main entrance of the application.
         /// </summary>
         [STAThread]
         static void Main(string[] args)

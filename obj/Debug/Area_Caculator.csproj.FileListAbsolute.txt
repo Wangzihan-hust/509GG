@@ -1,0 +1,9 @@
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\bin\Debug\Area_Caculator.exe.config
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\bin\Debug\Area_Caculator.xml
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\bin\Debug\Area_Caculator.exe
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\bin\Debug\Area_Caculator.pdb
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\obj\Debug\Area_Caculator.Form1.resources
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\obj\Debug\Area_Caculator.csproj.GenerateResource.cache
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\obj\Debug\Area_Caculator.csproj.CoreCompileInputs.cache
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\obj\Debug\Area_Caculator.exe
+D:\Courseware\工程训练营\盛安德\软件工程训练营\509GG\obj\Debug\Area_Caculator.pdb

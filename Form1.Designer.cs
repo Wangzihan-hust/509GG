@@ -1,5 +1,5 @@
 ﻿
-namespace 面积计算器
+namespace Area_Caculator
 {
     partial class Form1
     {
