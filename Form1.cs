@@ -46,60 +46,60 @@ namespace 面积计算器
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            if (button1 .Text == "单位：厘米")
+            if (button1 .Text == "单位：cm")
             {
-                button1.Text = "单位：英寸";
+                button1.Text = "单位：in";
                 unit= 2.54;
             }
 
             else
             {
-                button1.Text = "单位：厘米";
+                button1.Text = "单位：cm";
                 unit = 1;
             }
 
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            if (button2.Text == "单位：厘米")
+            if (button2.Text == "单位：cm")
             {
-                button2.Text = "单位：英寸";
+                button2.Text = "单位：in";
                 unit = 2.54;
             }
 
             else
             {
-                button2.Text = "单位：厘米";
+                button2.Text = "单位：cm";
                 unit = 1;
             }
 
         }
         private void button3_Click(object sender, EventArgs e)
         {
-            if (button3.Text == "单位：厘米")
+            if (button3.Text == "单位：cm")
             {
-                button3.Text = "单位：英寸";
+                button3.Text = "单位：in";
                 unit = 2.54;
             }
 
             else
             {
-                button3.Text = "单位：厘米";
+                button3.Text = "单位：cm";
                 unit = 1;
             }
 
         }
         private void button4_Click(object sender, EventArgs e)
         {
-            if (button4.Text == "单位：厘米")
+            if (button4.Text == "单位：cm")
             {
-                button4.Text = "单位：英寸";
+                button4.Text = "单位：in";
                 unit = 2.54;
             }
 
             else
             {
-                button4.Text = "单位：厘米";
+                button4.Text = "单位：cm";
                 unit = 1;
             }
 
@@ -137,7 +137,7 @@ namespace 面积计算器
                 if (r > 0)
                 {
             
-                    MessageBox.Show("边长为 " + r *unit+"cm" + " 的正方形的面积是：" + cgraph.calculate(r, r) * unit * unit + " cm^2");
+                    MessageBox.Show("边长为 " + r *unit+"cm" + " 的正方形的面积是：" + cgraph.calculate(r, r) * unit * unit + " cm\x00b2");
                 }
                 else
                 {
@@ -154,7 +154,7 @@ namespace 面积计算器
                 double c = double.Parse(textBox3.Text);
                 if (r > 0 && c > 0)
                 {
-                    MessageBox.Show("长为 " + r * unit + "cm" + " 宽为 " + c * unit + "cm" + " 的长方形的面积是：" + cgraph.calculate(r, c) * unit * unit + " cm ^ 2");
+                    MessageBox.Show("长为 " + r * unit + "cm" + " 宽为 " + c * unit + "cm" + " 的长方形的面积是：" + cgraph.calculate(r, c) * unit * unit + " cm\x00b2");
                  
 
                 }
@@ -171,7 +171,7 @@ namespace 面积计算器
 
                 if (r > 0 && c > 0)
                 {
-                    MessageBox.Show("底为 " + r * unit + "cm" + "高为" + c * unit + "cm" + " 的三角形的面积是：" + cgraph.calculate1(r, c) * unit * unit + "cm^2");
+                    MessageBox.Show("底为 " + r * unit + "cm" + "高为" + c * unit + "cm" + " 的三角形的面积是：" + cgraph.calculate1(r, c) * unit * unit + "cm\x00b2");
 
                 }
                 else
@@ -184,7 +184,7 @@ namespace 面积计算器
                 double r = double.Parse(textBox6.Text);
                 if (r > 0)
                 {
-                    MessageBox.Show("直径为 " + r * unit + "cm" + " 的圆的面积是：" + cgraph.calculate(r) * unit * unit + "cm^2");
+                    MessageBox.Show("直径为 " + r * unit + "cm" + " 的圆的面积是：" + cgraph.calculate(r) * unit * unit + "cm\x00b2");
 
                 }
                 else
