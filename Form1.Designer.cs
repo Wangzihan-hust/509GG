@@ -67,11 +67,12 @@ namespace 面积计算器
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.tabControl1.Location = new System.Drawing.Point(87, 74);
+            this.tabControl1.Location = new System.Drawing.Point(65, 59);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(574, 233);
+            this.tabControl1.Size = new System.Drawing.Size(430, 186);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -79,38 +80,42 @@ namespace 面积计算器
             this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Controls.Add(this.textBox1);
             this.tabPage1.Controls.Add(this.label2);
-            this.tabPage1.Location = new System.Drawing.Point(4, 29);
+            this.tabPage1.Location = new System.Drawing.Point(4, 26);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(566, 200);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Size = new System.Drawing.Size(422, 156);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "正方形";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(399, 83);
+            this.button1.Location = new System.Drawing.Point(299, 64);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(108, 33);
+            this.button1.Size = new System.Drawing.Size(71, 27);
             this.button1.TabIndex = 2;
-            this.button1.Text = "单位：厘米";
+            this.button1.Text = "单位：cm";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(261, 85);
+            this.textBox1.Location = new System.Drawing.Point(196, 66);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 27);
+            this.textBox1.Size = new System.Drawing.Size(75, 27);
             this.textBox1.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(27, 79);
+            this.label2.Location = new System.Drawing.Point(20, 63);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(215, 32);
+            this.label2.Size = new System.Drawing.Size(172, 27);
             this.label2.TabIndex = 0;
             this.label2.Text = "正方形的边长为：";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -122,45 +127,50 @@ namespace 面积计算器
             this.tabPage2.Controls.Add(this.textBox2);
             this.tabPage2.Controls.Add(this.label4);
             this.tabPage2.Controls.Add(this.label3);
-            this.tabPage2.Location = new System.Drawing.Point(4, 29);
+            this.tabPage2.Location = new System.Drawing.Point(4, 26);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(566, 200);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage2.Size = new System.Drawing.Size(422, 156);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "长方形";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(402, 83);
+            this.button2.Location = new System.Drawing.Point(299, 64);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(102, 34);
+            this.button2.Size = new System.Drawing.Size(71, 27);
             this.button2.TabIndex = 5;
-            this.button2.Text = "单位：厘米";
+            this.button2.Text = "单位：cm";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(220, 120);
+            this.textBox3.Location = new System.Drawing.Point(196, 90);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(138, 27);
+            this.textBox3.Size = new System.Drawing.Size(75, 27);
             this.textBox3.TabIndex = 4;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(220, 44);
+            this.textBox2.Location = new System.Drawing.Point(196, 42);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(138, 27);
+            this.textBox2.Size = new System.Drawing.Size(75, 27);
             this.textBox2.TabIndex = 3;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(36, 113);
+            this.label4.Location = new System.Drawing.Point(20, 87);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(190, 32);
+            this.label4.Size = new System.Drawing.Size(152, 27);
             this.label4.TabIndex = 2;
             this.label4.Text = "长方形的宽为：";
             // 
@@ -168,9 +178,10 @@ namespace 面积计算器
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(36, 35);
+            this.label3.Location = new System.Drawing.Point(20, 39);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(190, 32);
+            this.label3.Size = new System.Drawing.Size(152, 27);
             this.label3.TabIndex = 1;
             this.label3.Text = "长方形的长为：";
             // 
@@ -181,45 +192,50 @@ namespace 面积计算器
             this.tabPage3.Controls.Add(this.textBox5);
             this.tabPage3.Controls.Add(this.label6);
             this.tabPage3.Controls.Add(this.label5);
-            this.tabPage3.Location = new System.Drawing.Point(4, 29);
+            this.tabPage3.Location = new System.Drawing.Point(4, 26);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(566, 200);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage3.Size = new System.Drawing.Size(422, 156);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "三角形";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(394, 83);
+            this.button3.Location = new System.Drawing.Point(299, 64);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(108, 33);
+            this.button3.Size = new System.Drawing.Size(71, 27);
             this.button3.TabIndex = 6;
-            this.button3.Text = "单位：厘米";
+            this.button3.Text = "单位：cm";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(235, 55);
+            this.textBox4.Location = new System.Drawing.Point(196, 42);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(138, 27);
+            this.textBox4.Size = new System.Drawing.Size(75, 27);
             this.textBox4.TabIndex = 4;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(235, 116);
+            this.textBox5.Location = new System.Drawing.Point(196, 90);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(138, 27);
+            this.textBox5.Size = new System.Drawing.Size(75, 27);
             this.textBox5.TabIndex = 5;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label6.Location = new System.Drawing.Point(39, 109);
+            this.label6.Location = new System.Drawing.Point(20, 87);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(190, 32);
+            this.label6.Size = new System.Drawing.Size(152, 27);
             this.label6.TabIndex = 3;
             this.label6.Text = "三角形的高为：";
             // 
@@ -227,9 +243,10 @@ namespace 面积计算器
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(39, 48);
+            this.label5.Location = new System.Drawing.Point(20, 39);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(190, 32);
+            this.label5.Size = new System.Drawing.Size(152, 27);
             this.label5.TabIndex = 2;
             this.label5.Text = "三角形的底为：";
             // 
@@ -240,38 +257,42 @@ namespace 面积计算器
             this.tabPage4.Controls.Add(this.button4);
             this.tabPage4.Controls.Add(this.textBox6);
             this.tabPage4.Controls.Add(this.label7);
-            this.tabPage4.Location = new System.Drawing.Point(4, 29);
+            this.tabPage4.Location = new System.Drawing.Point(4, 26);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(566, 200);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage4.Size = new System.Drawing.Size(422, 156);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "圆形";
             this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(409, 92);
+            this.button4.Location = new System.Drawing.Point(299, 64);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(108, 33);
+            this.button4.Size = new System.Drawing.Size(71, 27);
             this.button4.TabIndex = 6;
-            this.button4.Text = "单位：厘米";
+            this.button4.Text = "单位：cm";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(267, 94);
+            this.textBox6.Location = new System.Drawing.Point(196, 66);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 27);
+            this.textBox6.Size = new System.Drawing.Size(75, 27);
             this.textBox6.TabIndex = 5;
             // 
             // label7
-            // 
+            //        
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label7.Location = new System.Drawing.Point(39, 88);
+            this.label7.Location = new System.Drawing.Point(20, 63);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(190, 32);
+            this.label7.Size = new System.Drawing.Size(172, 27);
             this.label7.TabIndex = 4;
             this.label7.Text = "圆形的直径为：";
             // 
@@ -279,18 +300,20 @@ namespace 面积计算器
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(269, 25);
+            this.label1.Location = new System.Drawing.Point(202, 20);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(247, 28);
+            this.label1.Size = new System.Drawing.Size(197, 22);
             this.label1.TabIndex = 1;
             this.label1.Text = "509GG-面积计算器";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btn5
             // 
-            this.btn5.Location = new System.Drawing.Point(326, 331);
+            this.btn5.Location = new System.Drawing.Point(244, 265);
+            this.btn5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(95, 34);
+            this.btn5.Size = new System.Drawing.Size(71, 27);
             this.btn5.TabIndex = 2;
             this.btn5.Text = "开始计算";
             this.btn5.UseVisualStyleBackColor = true;
@@ -298,14 +321,15 @@ namespace 面积计算器
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 360);
             this.Controls.Add(this.btn5);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tabControl1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "509GG-面积计算器";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
